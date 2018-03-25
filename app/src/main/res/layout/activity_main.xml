@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joan.inclassassignment01_yanranw.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/birthday"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Happy Birthday Alice!"
+            android:textColor="@color/colorAccent"
+            android:textSize="36sp"
+            android:background="@android:color/holo_orange_light"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/date"
+            android:layout_alignParentRight="true"
+            android:text="From Joan"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:background="@android:color/white"
+            android:padding="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="2018 April"
+            android:id="@+id/date"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:background="@android:color/white"
+            android:padding="4dp"/>
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
